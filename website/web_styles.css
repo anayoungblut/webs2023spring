@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .menu-container {
+    color: hsl(282, 86%, 57%);
+    background-color: hsl(287, 83%, 80%); 
+    padding: 20px 0;
+    display: flex; 
+    justify-content: center; 
+  }
+  .menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+  }
+  a:link {
+    color: #8d35f8;
+    text-decoration: underline;
+  }
+  a:visited {
+    color: purple;
+  }
+  a:hover {
+    color: rgb(255, 0, 149);
+    text-decoration: underline;
+  }
+  a:active {
+    color: #ff00f7;
+  }
+  a:visited:hover {
+    color: #3300ff;
+  }
+  a:visited:active {
+    color: #77369a;
+  }
+  .avon-title {
+    color: hsl(282, 86%, 57%);
+    background-color: hsl(287, 83%, 80%); 
+    padding: 20px 0;
+    display: flex; 
+    justify-content: center; 
+  }
+  .florida-title {
+    color: hsl(282, 86%, 57%);
+    background-color: hsl(287, 83%, 80%); 
+    padding: 20px 0;
+    display: flex; 
+    justify-content: center; 
+  }
+  .pitt-title {
+    color: hsl(282, 86%, 57%);
+    background-color: hsl(287, 83%, 80%); 
+    padding: 20px 0;
+    display: flex; 
+    justify-content: center; 
+  }
+  .about-title {
+    color: hsl(282, 86%, 57%);
+    background-color: hsl(287, 83%, 80%); 
+    padding: 20px 0;
+    display: flex; 
+    justify-content: center; 
+  }
+  .pitt-description {
+    color:  hsl(287, 83%, 80%); 
+    background-color:  hsl(282, 86%, 57%);
+    padding: 20px 0;
+    display: flex; 
+    justify-content: center; 
+  }
