@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
   }
   .menu-container {
     color: hsl(282, 86%, 57%);
@@ -9,6 +10,7 @@
     padding: 20px 0;
     display: flex; 
     justify-content: center; 
+    font-size: 24px; 
   }
   .menu {
     width: 900px;
@@ -50,8 +52,8 @@
     justify-content: center; 
   }
   .pitt-title {
-    color: hsl(282, 86%, 57%);
-    background-color: hsl(287, 83%, 80%); 
+    color: hwb(229 7% 78%);
+    background-color:  rgb(230, 230, 230); 
     padding: 20px 0;
     display: flex; 
     justify-content: center; 
@@ -64,9 +66,32 @@
     justify-content: center; 
   }
   .pitt-description {
-    color:  hsl(287, 83%, 80%); 
-    background-color:  hsl(282, 86%, 57%);
+    color:  rgb(230, 230, 230); 
+    background-color:  hwb(229 7% 78%);
     padding: 20px 0;
     display: flex; 
     justify-content: center; 
   }
+
+  .pitt-photo-grid-container {
+    display: grid 
+  }
+
+  .photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;    /* Change this */
+    flex-wrap: wrap;
+  }
+
+  .photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+  }
+   
+  img {
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+
