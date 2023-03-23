@@ -12,3 +12,9 @@ For my project, I'm caught between a personal blog and a museum-type website dis
 
 
 ![IMG_6525](https://user-images.githubusercontent.com/122397120/222326417-818bc88f-f7f6-4fa2-8574-ab5b0cb69322.jpeg)
+
+**Reflective Writing 3/23/23**
+
+I am excited to have a space to share some photos I especially like. I am not too sure how to perfectly design a website that isn't just a gallery of photos. I think the best way to get around this issue is to include a detailed description of each photo, whether that is the history of the location, why I took the photo/the context of it, or why it is special to me. I have a lot of ideas that I'd like to incorporate, but I just do not think that is feasible considering my skill level and time constraints. 
+
+Websites that are easy to get through have the navigation bar easily accessible. They are more difficult to navigate when they have a lot of obtrusive design or if the user cannot tell what objects are links. Personally, I prefer websites that have different interfaces for each new topic rather than one continuous page with jumps. I find them to be easier to navigate. 
