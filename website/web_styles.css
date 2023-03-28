@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  
+  }
+
+  @media {
+    background-color: hsl(282, 86%, 57%); 
   }
   .menu-container {
     color: hsl(282, 86%, 57%);
@@ -38,16 +42,17 @@
     color: #77369a;
   }
   
-  .florida-title {
-    color: hsl(282, 86%, 57%);
-    background-color: hsl(287, 83%, 80%); 
+  .pitt-title {
+    color: rgb(211, 189, 167);    
+    background-color:  rgb(5, 5, 5); 
     padding: 20px 0;
     display: flex; 
     justify-content: center; 
   }
-  .pitt-title {
-    color: hwb(229 7% 78%);
-    background-color:  rgb(230, 230, 230); 
+
+  .pitt-description {
+    color: rgb(5, 5, 5); 
+    background-color: rgb(211, 189, 167);   
     padding: 20px 0;
     display: flex; 
     justify-content: center; 
@@ -55,7 +60,7 @@
   
   .photo-description {
     color:  rgb(230, 230, 230); 
-    background-color:  hwb(229 7% 78%);
+    background-color:  rgb(5, 5, 5); 
     padding: 20px 0;
     display: flex; 
     justify-content: center; 
@@ -90,16 +95,16 @@
   }
 
   .avon-title {
-    color: #d3faff;
-    background-color:  rgb(23, 67, 73);
+    color: rgb(211, 189, 167);    
+    background-color: rgb(5, 5, 5); 
     padding: 20px 0;
     display: flex; 
     justify-content: center; 
   }
 
   .avon-description {
-    color: rgb(23, 67, 73);
-    background-color:  #d3faff;
+    color:rgb(5, 5, 5); 
+    background-color: rgb(211, 189, 167);    
     padding: 20px 0;
     display: flex; 
     justify-content: center; 
@@ -107,16 +112,16 @@
   }
 
   .fl-title {
-    color: hsl(209, 99%, 61%);
-    background-color:  #caddff;
+    color:rgb(211, 189, 167);    
+    background-color: rgb(5, 5, 5); 
     padding: 20px 0;
     display: flex; 
     justify-content: center; 
   }
 
   .fl-description {
-    color:  #caddff;
-    background-color:  hsl(209, 99%, 61%);
+    color: rgb(5, 5, 5); 
+    background-color: rgb(211, 189, 167);    
     padding: 20px 0;
     display: flex; 
     justify-content: center; 
@@ -124,16 +129,16 @@
   }
 
   .about {
-    color:  hsl(0, 100%, 50%);
-    background-color:  rgb(255, 147, 214);
+    color:  rgb(5, 5, 5); 
+    background-color: rgb(211, 189, 167);    
     padding: 20px 0;
     display: flex; 
     justify-content: center; 
     text-align: center;
   }
   .about-title {
-    color:  rgb(255, 147, 214);
-    background-color:hsl(0, 100%, 50%);
+    color: rgb(211, 189, 167);    
+    background-color:rgb(5, 5, 5); 
     padding: 20px 0;
     display: flex; 
     justify-content: center; 
