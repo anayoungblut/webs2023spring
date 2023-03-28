@@ -37,13 +37,7 @@
   a:visited:active {
     color: #77369a;
   }
-  .avon-title {
-    color: hsl(282, 86%, 57%);
-    background-color: hsl(287, 83%, 80%); 
-    padding: 20px 0;
-    display: flex; 
-    justify-content: center; 
-  }
+  
   .florida-title {
     color: hsl(282, 86%, 57%);
     background-color: hsl(287, 83%, 80%); 
@@ -58,14 +52,8 @@
     display: flex; 
     justify-content: center; 
   }
-  .about-title {
-    color: hsl(282, 86%, 57%);
-    background-color: hsl(287, 83%, 80%); 
-    padding: 20px 0;
-    display: flex; 
-    justify-content: center; 
-  }
-  .pitt-description {
+  
+  .photo-description {
     color:  rgb(230, 230, 230); 
     background-color:  hwb(229 7% 78%);
     padding: 20px 0;
@@ -73,14 +61,14 @@
     justify-content: center; 
   }
 
-  .pitt-photo-grid-container {
-    display: grid 
+  .photo-grid-container {
+    display: flex;   
   }
 
   .photo-grid {
     width: 900px;
     display: flex;
-    justify-content: center;    /* Change this */
+    justify-content: center;   
     flex-wrap: wrap;
   }
 
@@ -95,3 +83,58 @@
     max-height: 100vh;
   }
 
+  .intro-paragraph {
+    text-align: center;
+    display: flex; 
+    font-size: 20px;
+  }
+
+  .avon-title {
+    color: #d3faff;
+    background-color:  rgb(23, 67, 73);
+    padding: 20px 0;
+    display: flex; 
+    justify-content: center; 
+  }
+
+  .avon-description {
+    color: rgb(23, 67, 73);
+    background-color:  #d3faff;
+    padding: 20px 0;
+    display: flex; 
+    justify-content: center; 
+    text-align: center;
+  }
+
+  .fl-title {
+    color: hsl(209, 99%, 61%);
+    background-color:  #caddff;
+    padding: 20px 0;
+    display: flex; 
+    justify-content: center; 
+  }
+
+  .fl-description {
+    color:  #caddff;
+    background-color:  hsl(209, 99%, 61%);
+    padding: 20px 0;
+    display: flex; 
+    justify-content: center; 
+    text-align: center;
+  }
+
+  .about {
+    color:  hsl(0, 100%, 50%);
+    background-color:  rgb(255, 147, 214);
+    padding: 20px 0;
+    display: flex; 
+    justify-content: center; 
+    text-align: center;
+  }
+  .about-title {
+    color:  rgb(255, 147, 214);
+    background-color:hsl(0, 100%, 50%);
+    padding: 20px 0;
+    display: flex; 
+    justify-content: center; 
+  }
