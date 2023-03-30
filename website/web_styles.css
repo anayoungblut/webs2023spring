@@ -7,7 +7,7 @@
 
   .menu-container ul {
     color: #ffffff;  
-    background-color: rgb(211, 189, 167);  
+    background-color: #989188;  
     padding: 20px 0;
     display: flex; 
     justify-content: space-around;
@@ -16,14 +16,14 @@
   }
  
 body {
-  background-color: rgb(211, 189, 167); 
+  background-color: #989188; 
 }
   a:link {
     color: #ffffff;  
     text-decoration: underline;
   }
   a:visited {
-    color:  #f7ddc2;  
+    color:  hsl(30, 8%, 69%);  
   }
   a:hover {
     color:  #9d8e7f;  
@@ -71,7 +71,7 @@ body {
   }
 
   .title {
-    color: rgb(211, 189, 167);    
+    color: #989188;    
     background-color: rgb(255, 255, 255); 
     padding: 20px 0;
     display: flex; 
@@ -81,7 +81,7 @@ body {
 
   .description {
     color:rgb(255, 255, 255); 
-    background-color: rgb(211, 189, 167);    
+    background-color: #989188;     
     padding: 20px 0;
     display: flex; 
     justify-content: center; 
@@ -98,3 +98,5 @@ body {
     flex-direction: row; 
     }
   }
+
+  
