@@ -16,7 +16,7 @@
   }
  
 body {
-  background-color: #989188; 
+  background-color: #989188;
 }
   a:link {
     color: #ffffff;  
@@ -79,6 +79,12 @@ body {
     font-size: 36px;
   }
 
+  .cover-photo {
+    display: block;
+    margin: 0 auto; 
+    padding-bottom: 20px; 
+  }
+
   .description {
     color:rgb(255, 255, 255); 
     background-color: #989188;     
@@ -99,4 +105,31 @@ body {
     }
   }
 
+  .footer { 
+    background-color:rgb(255, 255, 255);
+    color:  #040404; 
+    display: flex; 
+    bottom: 0; 
+    width: 100%;
+    height: 50px; 
+    justify-content: space-between; 
+  }
+
+  .footer-insta {
+    max-height: 50px;
+  }
+
+  .footer-text{
+    padding-top: 15px; 
+  }
+
+  .item-p {
+    color: rgb(255, 255, 255);
+    padding: 20px; 
+    text-align: center; 
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  
   
